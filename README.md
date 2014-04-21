@@ -4,6 +4,9 @@ jsdoc3-grunt-template
 ## Introduction
 The template for grunt tasks by JSDoc3 uses: [jsdoc3-bootstrap](https://github.com/alivedise/jsdoc3-bootstrap).
 
+## DEMO
+[Demo Page is here.](http://kabocha.orz.hm/labo/jsdoc3-grunt-template-demo/)
+
 ## Usage
 ### Install grunt-jsdoc on your project directory.
 
@@ -76,6 +79,8 @@ grunt.registerTask('serve', [
 ```
 
 #### Execute ```grunt jsdoc ``` and you can get Document in destination directory!
+
+### You can also check Usage from [demo](https://github.com/thujikun/jsdoc3-grunt-template/tree/master/demo).
 
 ## License
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
