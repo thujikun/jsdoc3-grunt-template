@@ -1,0 +1,21 @@
+<?js
+    var self = this;
+    docs.forEach(function(doc, i) {
+?>
+
+<section>
+
+<article>
+    <?js
+        var methods = self.find({kind: 'function', memberof: title === 'Global' ? {isUndefined: true} : doc.longname});
+        if (methods && methods.length && methods.forEach) { 
+    ?>
+        <dl class="bs-docs-example bs-methods"><?js methods.forEach(function(m) { ?>
+            <?js= self.partial('method.tmpl', m) ?>
+        <?js }); ?></dl>
+    <?js } ?>
+</article>
+
+</section>
+
+<?js }); ?>
