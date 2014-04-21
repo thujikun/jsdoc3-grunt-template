@@ -11,7 +11,7 @@ The template for grunt tasks by JSDoc3 uses: [jsdoc3-bootstrap](https://github.c
 npm install grunt-jsdoc --save-dev
 ```
 
-### Clone this repository in template files directory of your project.  
+#### Clone this repository in template files directory of your project.  
 for example "jsdoc-templates/"
 
 ```
@@ -19,7 +19,7 @@ cd jsdoc-templates/
 git clone git@github.com:thujikun/jsdoc3-grunt-template.git
 ```
 
-### Create grunt task for jsdoc.
+#### Create grunt task for jsdoc.
 
 ```
 jsdoc: {
@@ -36,7 +36,7 @@ jsdoc: {
 }
 ```
 
-### Write jsdoc comment in your Gruntfile.js.
+#### Write jsdoc comment in your Gruntfile.js.
 
 ```
 /**
@@ -57,7 +57,7 @@ grunt.registerTask('serve', [
 ]);
 ```
 
-### Modify document title in jsdoc.conf.json file templates.title section.
+#### Modify document title in jsdoc.conf.json file templates.title section.
 
 ```
 {
@@ -75,7 +75,7 @@ grunt.registerTask('serve', [
 }
 ```
 
-### Execute ```grunt jsdoc ``` and you can get Document in destination directory!
+#### Execute ```grunt jsdoc ``` and you can get Document in destination directory!
 
-#### License
+## License
 [MIT License](http://en.wikipedia.org/wiki/MIT_License)
