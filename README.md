@@ -57,6 +57,24 @@ grunt.registerTask('serve', [
 ]);
 ```
 
+### Modify document title in jsdoc.conf.json file templates.title section.
+
+```
+{
+    "tags"      : {
+        "allowUnknownTags" : true
+    },
+    "plugins"   : ["plugins/markdown"],
+    "templates" : {
+        "title" : "Your JSDoc Document Name"
+    },
+    "markdown"  : {
+        "parser"   : "gfm",
+        "hardwrap" : true
+    }
+}
+```
+
 ### Execute ```grunt jsdoc ``` and you can get Document in destination directory!
 
 #### License
