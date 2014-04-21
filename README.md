@@ -51,7 +51,7 @@ grunt.registerTask('default', [
  * @function grunt serve
  * @desc create server and watch
  */
-grunt.registerTask('default', [
+grunt.registerTask('serve', [
     'connect',
     'watch'
 ]);
